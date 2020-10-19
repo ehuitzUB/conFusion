@@ -127,63 +127,57 @@
         </div>  
     </div>
     
-    
-    <div class=" col-12 col-sm-8">
-    <div class = "card"> 
-        <div class="container" id="reserve"></div>
-        <h3 class="card-header bg-primary text-white">Reserve a Table</h3>
-         <div class="card-body">
-             <form>
-                 <div class="form-group row">
-                     <label for="numberguests" class="col-md-2 col-form-label"
-                       >Number of Guests</label>
-                     <div class="col-md-1">
-                         <input type="radio" class="form-control" id="1guest" value="1">
-                         <label for="1guest">1</label>
-                     </div>
-                     <div class="col-md-1">
-                        <input type="radio" class="form-control" id="2guest" value="2">
-                        <label for="2guest">2</label>
-                    </div>
-                    <div class="col-md-1">
-                        <input type="radio" class="form-control" id="3guest" value="3">
-                        <label for="3guest">3</label>
-                    </div>
-                    <div class="col-md-1">
-                        <input type="radio" class="form-control" id="4guest" value="4">
-                        <label for="4guest">4</label>
-                    </div>
-                    <div class="col-md-1">
-                        <input type="radio" class="form-control" id="5guest" value="5">
-                        <label for="5guest">5</label>
-                    </div>
-                    <div class="col-md-1">
-                        <input type="radio" class="form-control" id="6guest" value="6">
-                        <label for="6guest">6</label>
-                    </div>
-                 </div>
-                 <div class="form-group row">
-                     <label for="date" class="col-md-2 col-form-label"
-                       >Date and Time</label>
-                     <div class="col-md-5">
-                         <input placeholder="Date" type="date" class="form-control" id="date" name="date"/>
-                     </div>
-                     <div class="col-md-5">
-                        <input placeholder="Time" type="time" class="form-control" id="time" name="time" />
-                    </div>
-                    </div>
-    <div class="form-group row">
-                     <div class="offset-md-2 col-md-10">
-                         <button type="submit" class="btn btn-primary">Reserve</button>
-                     </div>
-    </div>
- 
-             </form>
-
-
-         </div>
-    </div>
-</div>
+    <div class = "row row-content" id="reserve">
+        <div class="col-12 col-sm-8"></div>
+            <div class = "card"> 
+                <h3 class="card-header bg-primary text-white">Reserve a Table</h3>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group row">
+                            <label for="numberguests" class="col-md-3 col-form-label">Number of Guests</label>
+                            <div class="col-md-1">
+                                <input type="radio" class="form-control" id="1guest" value="1" name="guests">
+                                <label for="1guest">1</label>
+                            </div>
+                            <div class="col-md-1">
+                                <input type="radio" class="form-control" id="2guest" value="2" name="guests">
+                                <label for="2guest">2</label>
+                            </div>
+                            <div class="col-md-1">
+                                <input type="radio" class="form-control" id="3guest" value="3" name="guests">
+                                <label for="3guest">3</label>
+                            </div>
+                            <div class="col-md-1">
+                                <input type="radio" class="form-control" id="4guest" value="4" name="guests">
+                                <label for="4guest">4</label>
+                            </div>
+                            <div class="col-md-1">
+                                <input type="radio" class="form-control" id="5guest" value="5" name="guests">
+                                <label for="5guest">5</label>
+                            </div>
+                            <div class="col-md-1">
+                                <input type="radio" class="form-control" id="6guest" value="6" name="guests">
+                                <label for="6guest">6</label>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="date" class="col-md-3 col-form-label">Date and Time</label>
+                            <div class="col-md-5">
+                                <input placeholder="Date" type="date" class="form-control" id="date" name="date"/>
+                            </div>
+                            <div class="col-md-4">
+                                <input placeholder="Time" type="time" class="form-control" id="time" name="time" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                                        <div class="offset-md-2 col-md-10">
+                                            <button type="submit" class="btn btn-primary">Reserve</button>
+                                        </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
     </div>
 
